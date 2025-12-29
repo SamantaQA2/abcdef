@@ -28,8 +28,8 @@ export default tseslint.config(
   {
     rules: {
      // imports / unused
-      'unused-imports/no-unused-imports': 'error',
-      '@typescript-eslint/no-unused-vars': 'off',
+      'unused-imports/no-unused-imports': 'off',
+      '@typescript-eslint/no-unused-vars': 'error',
 
       // explicitness / types
       '@typescript-eslint/explicit-function-return-type': 'off',
