@@ -28,7 +28,7 @@ export default tseslint.config(
   {
     rules: {
      // imports / unused
-      'unused-imports/no-unused-imports': 'off',
+      'unused-imports/no-unused-imports': 'error',
       '@typescript-eslint/no-unused-vars': 'off',
 
       // explicitness / types
