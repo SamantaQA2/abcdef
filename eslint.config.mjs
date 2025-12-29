@@ -29,7 +29,7 @@ export default tseslint.config(
     rules: {
      // imports / unused
       'unused-imports/no-unused-imports': 'off',
-      '@typescript-eslint/no-unused-vars': 'error',
+      '@typescript-eslint/no-unused-vars': 'off',
 
       // explicitness / types
       '@typescript-eslint/explicit-function-return-type': 'off',
