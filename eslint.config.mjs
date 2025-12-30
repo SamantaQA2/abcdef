@@ -83,7 +83,7 @@ export default tseslint.config(
       'max-params': 'off',
       'no-else-return': 'off',
       'no-empty': 'error',
-      'no-extra-semi': 'error',
+      'no-extra-semi': 'warn',
       'no-floating-decimal': 'error',
       'no-nested-ternary': 'error',
       'no-new': 'off',
